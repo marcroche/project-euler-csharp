@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectEuler", "..\..\ProjectEuler\ProjectEuler\ProjectEuler.csproj", "{AC64B1C2-6EB6-4164-9613-169E15817B75}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectEuler", "ProjectEuler\ProjectEuler.csproj", "{AC64B1C2-6EB6-4164-9613-169E15817B75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectEuler.Tests", "..\..\ProjectEuler\ProjectEuler.Tests\ProjectEuler.Tests.csproj", "{83CC5476-C52F-4F6F-A47D-D68BF3B2A671}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectEuler.Tests", "ProjectEuler.Tests\ProjectEuler.Tests.csproj", "{83CC5476-C52F-4F6F-A47D-D68BF3B2A671}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
