@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using ProjectEuler.Library;
 
 namespace ProjectEuler.Problems
 {
@@ -21,7 +18,7 @@ namespace ProjectEuler.Problems
             long sum = 0;
             for (int i = 0; i < 2000000; i++)
             {
-                if (Library.IsPrime(i))
+                if (ProjectEuler.Library.Library.IsPrime(i))
                 {
                     sum += i;
                 }

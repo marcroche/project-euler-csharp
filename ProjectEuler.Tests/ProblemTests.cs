@@ -1,7 +1,4 @@
-﻿using System;
-using System.Text;
-using System.Collections.Generic;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ProjectEuler.Problems;
 
 namespace ProjectEuler.Tests
@@ -31,6 +28,14 @@ namespace ProjectEuler.Tests
         {
             long actual = _003.Run();
             Assert.AreEqual(6857, actual);
+        }
+
+        [Ignore]
+        [TestMethod]
+        public void _012_Test()
+        {
+            int actual = _012.Run();
+            Assert.AreEqual(76576500, actual);
         }
     }
 }

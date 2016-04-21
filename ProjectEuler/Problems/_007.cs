@@ -26,7 +26,7 @@ namespace ProjectEuler.Problems
             {
                 counter++;
 
-                if (Library.IsPrime(counter))
+                if (ProjectEuler.Library.Library.IsPrime(counter))
                 {
                     Console.WriteLine(counter);
 

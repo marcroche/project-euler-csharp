@@ -27,7 +27,7 @@ namespace ProjectEuler.Problems
                 {
                     long temp = i * j;
 
-                    if (Library.IsPalindrome(temp.ToString()))
+                    if (ProjectEuler.Library.Library.IsPalindrome(temp.ToString()))
                     {
                         palindromes.Add(temp);
                     }

@@ -19,12 +19,12 @@ namespace ProjectEuler.Problems
     {
         public static long Run()
         {
-            List<long> factors = Library.GetFactors(600851475143);
+            List<long> factors = ProjectEuler.Library.Library.GetFactors(600851475143);
             long value = 0;
 
             factors.OrderByDescending(x => x).ToList().ForEach((x) =>
             {
-                if (Library.IsPrime(x))
+                if (ProjectEuler.Library.Library.IsPrime(x))
                 {
                     value = x;
                     return true;
