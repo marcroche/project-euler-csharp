@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ProjectEuler.Problems;
+using System.Numerics;
 
 namespace ProjectEuler.Tests
 {
@@ -9,6 +10,7 @@ namespace ProjectEuler.Tests
     [TestClass]
     public class ProblemTests
     {
+        [Ignore]
         [TestMethod]
         public void _001_Test()
         {
@@ -16,6 +18,7 @@ namespace ProjectEuler.Tests
             Assert.AreEqual(233168, actual);
         }
 
+        [Ignore]
         [TestMethod]
         public void _002_Test()
         {
@@ -23,6 +26,7 @@ namespace ProjectEuler.Tests
             Assert.AreEqual(4613732, actual);
         }
 
+        [Ignore]
         [TestMethod]
         public void _003_Test()
         {
@@ -35,6 +39,13 @@ namespace ProjectEuler.Tests
         public void _012_Test()
         {
             int actual = _012.Run();
+            Assert.AreEqual(76576500, actual);
+        }
+
+        [TestMethod]
+        public void _013_Test()
+        {
+            BigInteger actual = _013.Run();
             Assert.AreEqual(76576500, actual);
         }
     }
