@@ -17,7 +17,7 @@ namespace ProjectEuler.Problems
     /// <answer>
     /// 4613732
     /// </answer>
-    public class _002
+    public class _0002
     {
         public static int Run()
         {

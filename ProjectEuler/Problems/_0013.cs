@@ -14,7 +14,7 @@ namespace ProjectEuler.Problems
     /// <answer>
     /// 76576500
     /// </answer>
-    class _013
+    class _0013
     {
         internal static BigInteger Run()
         {

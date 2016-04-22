@@ -12,7 +12,7 @@ namespace ProjectEuler.Problems
     /// <answer>
     /// 40824
     /// </answer>
-    class _008
+    class _0008
     {
         internal static void Run()
         {

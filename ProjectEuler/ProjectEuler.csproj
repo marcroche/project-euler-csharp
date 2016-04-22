@@ -51,20 +51,20 @@
     <Compile Include="Library\Library.cs" />
     <Compile Include="Library\PrimeNumber.cs" />
     <Compile Include="Library\TriangleNumber.cs" />
-    <Compile Include="Problems\_011.cs" />
-    <Compile Include="Problems\_001.cs" />
-    <Compile Include="Problems\_002.cs" />
-    <Compile Include="Problems\_003.cs" />
-    <Compile Include="Problems\_004.cs" />
-    <Compile Include="Problems\_005.cs" />
-    <Compile Include="Problems\_006.cs" />
-    <Compile Include="Problems\_007.cs" />
-    <Compile Include="Problems\_008.cs" />
-    <Compile Include="Problems\_009.cs" />
-    <Compile Include="Problems\_010.cs" />
-    <Compile Include="Problems\_013.cs" />
-    <Compile Include="Problems\_012.cs" />
-    <Compile Include="Problems\_050.cs" />
+    <Compile Include="Problems\_0011.cs" />
+    <Compile Include="Problems\_0001.cs" />
+    <Compile Include="Problems\_0002.cs" />
+    <Compile Include="Problems\_0003.cs" />
+    <Compile Include="Problems\_0004.cs" />
+    <Compile Include="Problems\_0005.cs" />
+    <Compile Include="Problems\_0006.cs" />
+    <Compile Include="Problems\_0007.cs" />
+    <Compile Include="Problems\_0008.cs" />
+    <Compile Include="Problems\_0009.cs" />
+    <Compile Include="Problems\_0010.cs" />
+    <Compile Include="Problems\_0013.cs" />
+    <Compile Include="Problems\_0012.cs" />
+    <Compile Include="Problems\_0050.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
