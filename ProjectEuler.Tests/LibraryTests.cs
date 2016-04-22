@@ -58,12 +58,12 @@ namespace ProjectEuler.Tests
         //
         #endregion
 
-        [TestMethod]
-        public void TestMethod1()
-        {
-            //
-            // TODO: Add test logic here
-            //
-        }
+        //[TestMethod]
+        //public void TestMethod1()
+        //{
+        //    //
+        //    // TODO: Add test logic here
+        //    //
+        //}
     }
 }

@@ -50,5 +50,14 @@ namespace ProjectEuler.Tests
             BigInteger expected = BigInteger.Parse("5537376230390876637302048746832985971773659831892672");
             Assert.AreEqual(expected, actual);
         }
+
+        //[Ignore]
+        [TestMethod]
+        public void _0014_Test()
+        {
+            long actual = _0014.Run();
+            long expected = 837799;
+            Assert.AreEqual(expected, actual);
+        }
     }
 }

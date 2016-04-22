@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Extensions\IEnumerableExtensions.cs" />
+    <Compile Include="Library\Algorithm.cs" />
     <Compile Include="Library\Arithmetic.cs" />
     <Compile Include="Library\Library.cs" />
     <Compile Include="Library\PrimeNumber.cs" />
@@ -64,6 +65,7 @@
     <Compile Include="Problems\_0010.cs" />
     <Compile Include="Problems\_0013.cs" />
     <Compile Include="Problems\_0012.cs" />
+    <Compile Include="Problems\_0014.cs" />
     <Compile Include="Problems\_0050.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

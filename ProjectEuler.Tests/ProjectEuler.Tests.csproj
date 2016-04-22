@@ -55,6 +55,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="LibraryTests.cs" />
+    <Compile Include="Library\AlgorithmTests.cs" />
     <Compile Include="Library\TriangleNumberTests.cs" />
     <Compile Include="Library\ArithmeticTest.cs" />
     <Compile Include="ProblemTests.cs" />
