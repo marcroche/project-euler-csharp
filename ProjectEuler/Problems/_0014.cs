@@ -1,4 +1,5 @@
 ﻿using ProjectEuler.Library;
+using ProjectEuler.Library.Algorithm;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -30,7 +31,7 @@ namespace ProjectEuler.Problems
 
             for(int i = 1; i < 1000000; i++)
             {
-                long length =  Algorithm.CollatzSequenceChainLength(i);
+                long length =  Collatz.CollatzSequenceChainLength(i);
 
                 if (length > currentLongest.Item2)
                 {

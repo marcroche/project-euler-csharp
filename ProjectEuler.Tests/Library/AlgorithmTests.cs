@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ProjectEuler.Library;
+using ProjectEuler.Library.Algorithm;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -11,7 +12,7 @@ namespace ProjectEuler.Tests.Library
         [TestMethod]
         public void CollatzSequenceTest()
         {
-            IEnumerable<long> list = Algorithm.CollatzSequence(13);
+            IEnumerable<long> list = Collatz.CollatzSequence(13);
             // 13 → 40 → 20 → 10 → 5 → 16 → 8 → 4 → 2 → 1
             Assert.AreEqual(13, list.ElementAt(0));
             Assert.AreEqual(40, list.ElementAt(1));

@@ -47,8 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Extensions\IEnumerableExtensions.cs" />
-    <Compile Include="Library\Algorithm.cs" />
+    <Compile Include="Library\Algorithm\Collatz.cs" />
+    <Compile Include="Library\Algorithm\Fibonacci.cs" />
+    <Compile Include="Library\Algorithm\Palindrome.cs" />
     <Compile Include="Library\Arithmetic.cs" />
+    <Compile Include="Library\Graph\Lattice.cs" />
+    <Compile Include="Library\Graph\LatticeCorner.cs" />
     <Compile Include="Library\PrimeNumber.cs" />
     <Compile Include="Library\TriangleNumber.cs" />
     <Compile Include="Problems\_0011.cs" />
