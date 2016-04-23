@@ -1,9 +1,7 @@
-﻿using System;
+﻿using ProjectEuler.Extensions;
+using ProjectEuler.Library;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ProjectEuler.Extensions;
 
 namespace ProjectEuler.Problems
 {
@@ -19,12 +17,12 @@ namespace ProjectEuler.Problems
     {
         public static long Run()
         {
-            List<long> factors = ProjectEuler.Library.Library.GetFactors(600851475143);
+            List<long> factors = Arithmetic.GetFactors(600851475143);
             long value = 0;
 
             factors.OrderByDescending(x => x).ToList().ForEach((x) =>
             {
-                if (ProjectEuler.Library.Library.IsPrime(x))
+                if (PrimeNumber.IsPrime(x))
                 {
                     value = x;
                     return true;

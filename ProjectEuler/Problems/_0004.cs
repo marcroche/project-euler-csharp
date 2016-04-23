@@ -1,8 +1,7 @@
-﻿using System;
+﻿using ProjectEuler.Library;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ProjectEuler.Problems
 {
@@ -27,7 +26,7 @@ namespace ProjectEuler.Problems
                 {
                     long temp = i * j;
 
-                    if (ProjectEuler.Library.Library.IsPalindrome(temp.ToString()))
+                    if (Algorithm.IsPalindrome(temp.ToString()))
                     {
                         palindromes.Add(temp);
                     }

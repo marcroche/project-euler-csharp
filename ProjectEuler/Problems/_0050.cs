@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjectEuler.Library;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -25,7 +26,7 @@ namespace ProjectEuler.Problems
 
             for (int i = 0; i < 1000000; i++)
             {
-                if (ProjectEuler.Library.Library.IsPrime(i))
+                if (PrimeNumber.IsPrime(i))
                 {
                     primesList.Add(i);
                 }

@@ -1,8 +1,6 @@
-﻿using System;
+﻿using ProjectEuler.Library;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ProjectEuler.Problems
 {
@@ -26,7 +24,7 @@ namespace ProjectEuler.Problems
             {
                 counter++;
 
-                if (ProjectEuler.Library.Library.IsPrime(counter))
+                if (PrimeNumber.IsPrime(counter))
                 {
                     Console.WriteLine(counter);
 

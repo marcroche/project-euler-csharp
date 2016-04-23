@@ -21,5 +21,36 @@ namespace ProjectEuler.Library
             }
             return divisors;
         }
+
+        internal static List<long> GetFactors(long value)
+        {
+            List<long> factors = new List<long>();
+
+            double temp = Math.Sqrt(value);
+            int sqrt = (int)temp;
+            bool isPerfectSquare = temp % 1 == 0;
+
+            for (long i = 1; i <= sqrt; i++)
+            {
+                if (value % i == 0)
+                {
+                    factors.Add(i);
+                }
+            }
+
+            List<long> others = new List<long>();
+
+            factors.ForEach(x =>
+            {
+                if (!(isPerfectSquare && x == sqrt))
+                {
+                    others.Add(value / x);
+                }
+            });
+
+            factors.AddRange(others);
+
+            return factors;
+        }
     }
 }

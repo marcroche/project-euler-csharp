@@ -8,6 +8,21 @@ namespace ProjectEuler.Library
 {
     internal static class PrimeNumber
     {
+        internal static bool IsPrime(long value)
+        {
+            if (value < 2)
+            {
+                return false;
+            }
+
+            if (Arithmetic.GetFactors(value).Count > 2)
+            {
+                return false;
+            }
+
+            return true;
+        }
+
         internal static void AtkinsSieve()
         {
             //int totalCount = 0;

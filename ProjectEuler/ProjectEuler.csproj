@@ -49,7 +49,6 @@
     <Compile Include="Extensions\IEnumerableExtensions.cs" />
     <Compile Include="Library\Algorithm.cs" />
     <Compile Include="Library\Arithmetic.cs" />
-    <Compile Include="Library\Library.cs" />
     <Compile Include="Library\PrimeNumber.cs" />
     <Compile Include="Library\TriangleNumber.cs" />
     <Compile Include="Problems\_0011.cs" />

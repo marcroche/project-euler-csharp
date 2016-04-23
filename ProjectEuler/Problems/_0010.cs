@@ -18,7 +18,7 @@ namespace ProjectEuler.Problems
             long sum = 0;
             for (int i = 0; i < 2000000; i++)
             {
-                if (ProjectEuler.Library.Library.IsPrime(i))
+                if (PrimeNumber.IsPrime(i))
                 {
                     sum += i;
                 }
