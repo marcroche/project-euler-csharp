@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,6 +22,23 @@ namespace ProjectEuler.Library
             }
 
             return true;
+        }
+
+        internal static IEnumerable<long> Sieve(long max)
+        {
+            ICollection<long> primes = new Collection<long>();
+
+            bool[] notCandidates = new bool[max];
+
+            //for(int i = 0; i < max; i++)
+            //{
+            //    candidates[i] = true;
+            //}
+
+            notCandidates[0] = true;
+
+
+            return primes;
         }
 
         internal static void AtkinsSieve()
