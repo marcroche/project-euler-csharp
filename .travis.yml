@@ -1,4 +1,2 @@
 language: csharp
 solution: ProjectEuler.sln
-install:
-  - nuget ProjectEuler.sln
