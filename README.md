@@ -2,3 +2,8 @@
 Project Euler work in C#
 
 Solving problems from www.projecteuler.net in C#
+
+Solved problems:
+
+1-14
+50
